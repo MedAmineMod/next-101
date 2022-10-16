@@ -54,9 +54,12 @@
           {/* <Text my={2} color="gray.500">
             {longLine}
           </Text> */}
-          <Button maxWidth="100px" my={2}>
+            <Link href={"/detailProduct/" + data.id}>
+            <Button maxWidth="100px" my={2}>
             Click me!
           </Button>
+                </Link>
+         
         </Stack>
       </Box>
     )
